@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css2/style2.css" />
+    <link rel="icon" href="./img/Bike/favicon.png" type="image/x-icon">
+    <title>Mountain Bike</title>
+  </head>
+  <body>
+    <!-- Menu Header -->
+    <header>
+      <div class="contenedor">
+        <div class="logo">
+          <a href="#">Mountain <span>Bike</span></a>
+        </div>
+        <button id="abrir" class="abrirMenu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <nav id="nav" class="nav">
+          <button id="cerrar" class="cerrarMenu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+          <a href="#banner" onclick="seleccionar()">INICIO</a>
+          <a href="#nosotros" onclick="seleccionar()">NOSOTROS</a>
+          <a href="#nuestrosProductos" onclick="seleccionar()">PRODUCTOS</a>
+          <a href="#footer" onclick="seleccionar()">CONTACTO</a>
+          <button class="switch" id="switch" onclick="seleccionar()">
+            <span><ion-icon name="sunny"></ion-icon></span>
+            <span><ion-icon name="moon"></ion-icon></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Img BANNER -->
+    <div class="banner" id="banner">
+      <!-- <img src="./img/banner/zyro-image (1).png" alt="banner" width="400" /> -->
+      <h2>MOUNTAIN</h2>
+      <h3>BIKE</h3>
+      <button>CONTACTANOS</button>
+    </div>
+
+    <!-- Seccion INICIO -->
+    <!-- <section class="inicio">
+      <div class="contenedor">
+        <h2>Categoria Productos</h2>
+        <div class="categoriaProductos">
+          <div class="productos">
+            <img
+              src="./img/categoriaProductos/oficina.jpg"
+              alt="oficina"
+              width="100"
+            />
+            <p>Oficina</p>
+          </div>
+          <div class="productos">
+            <img
+              src="./img/categoriaProductos/hogar.jpg"
+              alt="hogar"
+              width="100"
+            />
+            <p>Hogar</p>
+          </div>
+          <div class="productos">
+            <img
+              src="./img/categoriaProductos/cocina.jpg"
+              alt="cocina"
+              width="100"
+            />
+            <p>Cocina</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Seccion Sobre Nosotros -->
+    <!-- <section class="nosotros" id="nosotros">
+      <div class="contenedor">
+        <div class="imgNosotros">
+          <img
+            src="./img/categoriaProductos/hogar.jpg"
+            alt="hogar"
+            width="200"
+          />
+        </div>
+        <div class="infNosotros">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Acrílicos Cortados con Láser: Creatividad y Precisión En nuestro
+            negocio, fusionamos la versatilidad del acrílico con la precisión de
+            la máquina láser para ofrecerte productos únicos y personalizados.
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Seccion Nuestros Productos -->
+    <section class="nuestrosProductos" id="nuestrosProductos">
+      <div class="contenedor">
+        <h2>Nuestros <span class="decN1">Paquetes de Servicio</span></h2>
+        <!-- <div class="productoPrincipal">
+          <img src="./img/banner/zyro-image (1).png" alt="a" width="600" />
+          <div class="infPrincipal">
+            <h3>Producto 1</h3>
+            <p>
+              Producto 1 Producto 1 Producto 1 Producto 1 Producto 1 Producto 1
+              Producto 1
+            </p>
+            <p class="precio">Q.300</p>
+            <button>AGREGAR AL CARRITO</button>
+          </div>
+        </div>
+        <div class="ordenSecundarios">
+          <div class="productosSecundarios">
+            <img src="./img/banner/zyro-image (1).png" alt="a" width="600" />
+            <div class="infSecundaria">
+              <h3>Producto 2</h3>
+              <p>
+                Producto 1 Producto 1 Producto 1 Producto 1 Producto 1 Producto
+                1 Producto 1
+              </p>
+              <p class="precio">Q.300</p>
+              <button>AGREGAR AL CARRITO</button>
+            </div>
+          </div>
+          <div class="productosSecundarios">
+            <img src="./img/banner/zyro-image (1).png" alt="a" width="600" />
+            <div class="infSecundaria">
+              <h3>Producto 2</h3>
+              <p>
+                Producto 1 Producto 1 Producto 1 Producto 1 Producto 1 Producto
+                1 Producto 1
+              </p>
+              <p class="precio">Q.300</p>
+              <button>AGREGAR AL CARRITO</button>
+            </div>
+          </div>
+        </div> -->
+        <div class="ordenTerceros">
+          <div class="productosTerceros">
+            <img
+              src="./img/Bike/viciN1.jpg"
+              alt="a"
+              width="600"
+            />
+            <div class="infTerceros">
+              <h3 class="txtN1">STANDARD</h3>
+              <p>
+                <span class="texDec1">● </span>Lavado de la bicicleta<br> 
+                <span class="texDec1">● </span>Regulación de cambios<br>
+                <span class="texDec1">● </span>Regulación de freno<br>
+                <span class="texDec1">● </span>Limpieza y engrase de cabos<br>
+                <span class="texDec1">● </span>Ajuste de dirección<br>
+                <span class="texDec1">● </span>Pulido de cuadro<br>
+                <br>
+                <br>
+              </p>
+              <!-- <p class="precio1">₲ 100,000</p> -->
+              <button class="precioN1">₲ 100,000</button>
+            </div>
+          </div>
+          <div class="productosTerceros">
+            <img
+              src="./img/Bike/viciN1.jpg"
+              alt="a"
+              width="600"
+            />
+            <div class="infTerceros">
+              <h3 class="txtN2">DELUXE</h3>
+              <p>
+                <span class="txtDec2">● </span>Lavado de la bicicleta<br> 
+                <span class="txtDec2">● </span>Regulación de cambios y frenos<br>
+                <span class="txtDec2">● </span>Limpieza de dirección<br>
+                <span class="txtDec2">● </span>Centrado de rueda<br>
+                <span class="txtDec2">● </span>centrado de disco<br>
+                <span class="txtDec2">● </span>Pulido de cuadro<br>
+                <br>
+                <br>
+              </p>
+              <!-- <p class="precio2">₲ 150,000</p> -->
+              <button class="precioN2">₲ 150,000</button>
+            </div>
+          </div>
+          <div class="productosTerceros">
+            <img
+              src="./img/Bike/viciN2.jpg"
+              alt="a"
+              width="600"
+            />
+            <div class="infTerceros">
+              <h3 class="txtN3">PREMIUM</h3>
+              <p>
+                <span class="txtDec3">● </span>Limpieza general de la bicicleta<br> 
+                <span class="txtDec3">● </span>Desarme de caja pedalera<br>
+                <span class="txtDec3">● </span>Desarme de transmisión<br>
+                <span class="txtDec3">● </span>Desarme de dirección<br>
+                <span class="txtDec3">● </span>Centrado de rueda<br>
+                <span class="txtDec3">● </span>Centrado de disco<br>
+                <span class="txtDec3">● </span>Regulación de cambios y freno<br>
+                <span class="txtDec3">● </span>Pulido de cuadro<br>
+              </p>
+              <!-- <p class="precio3">₲ 200,000</p> -->
+              <button class="precioN3">₲ 200,000</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <ul>
+        <li>
+          <a href=""><ion-icon name="logo-facebook"></ion-icon> </a>
+        </li>
+        <li>
+          <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+        <li>
+          <a href=""><ion-icon name="logo-github"></ion-icon></a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- Iconos personalizados ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="menu.js"></script>
+  </body>
+</html>

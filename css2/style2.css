@@ -68,6 +68,10 @@ button {
   transition: 0.6s;
 }
 
+button a {
+  color: #fff;
+}
+
 button:hover {
   background-color: #fff;
   color: rgb(202, 0, 0);
@@ -210,6 +214,12 @@ header .contenedor nav .cerrarMenu ion-icon {
 .banner h3 {
   color: rgb(202, 0, 0);
 }
+.banner button a {
+  color: #fff;
+}
+.banner button a:hover {
+  color: rgb(202, 0, 0);
+}
 
 .inicio .contenedor {
   text-align: center;
@@ -349,7 +359,7 @@ header .contenedor nav .cerrarMenu ion-icon {
   padding-bottom: 8px;
   font-size: 16px;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precio1 {
   font-size: 25px;

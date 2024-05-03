@@ -19,7 +19,9 @@ body {
 body.dark {
   background: #0a0a0a;
 }
-body.dark h2, body.dark h3, body.dark p {
+body.dark h2,
+body.dark h3,
+body.dark p {
   color: #fff;
 }
 
@@ -66,10 +68,6 @@ button {
   position: relative;
   z-index: 10;
   transition: 0.6s;
-}
-
-button a {
-  color: #fff;
 }
 
 button:hover {
@@ -346,20 +344,19 @@ header .contenedor nav .cerrarMenu ion-icon {
   margin: 20px 0;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .txtN1 {
-  color: #64CAF2;
+  color: #64caf2;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .txtN2 {
-  color: #73AE40;
+  color: #73ae40;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .txtN3 {
-  color: #F3AE4F;
+  color: #f3ae4f;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros p {
   color: #fff;
-  padding-bottom: 8px;
   font-size: 16px;
   text-align: left;
-  padding-left: 40px;
+  padding: 0 20px 15px 20px;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precio1 {
   font-size: 25px;
@@ -387,11 +384,23 @@ header .contenedor nav .cerrarMenu ion-icon {
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN1 {
   font-size: 25px;
-  background: #64CAF2;
+  background: #64caf2;
+  transition: 0.8s;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN1:hover {
   background: #fff;
-  color: #64CAF2;
+  color: #64caf2;
+  transition: 0.8s;
+}
+.nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN1:hover a {
+  background: transparent;
+  color: #64caf2;
+}
+.nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN1 a,
+.nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN2 a,
+.nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN3 a {
+  background: none;
+  color: #fff;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN1::before {
   content: "Enviar mensaje";
@@ -403,15 +412,20 @@ header .contenedor nav .cerrarMenu ion-icon {
   rotate: -3deg;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .texDec1 {
-  color: #64CAF2;
+  color: #64caf2;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN2 {
   font-size: 25px;
-  background: #73AE40;
+  background: #73ae40;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN2:hover {
   background: #fff;
-  color: #73AE40;
+  color: #73ae40;
+  transition: 0.8s;
+}
+.nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN2:hover a {
+  background: transparent;
+  color: #73ae40;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN2::before {
   content: "Enviar mensaje";
@@ -423,15 +437,20 @@ header .contenedor nav .cerrarMenu ion-icon {
   rotate: -3deg;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .txtDec2 {
-  color: #73AE40;
+  color: #73ae40;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN3 {
   font-size: 25px;
-  background: #F3AE4F;
+  background: #f3ae4f;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN3:hover {
   background: #fff;
-  color: #F3AE4F;
+  color: #f3ae4f;
+  transition: 0.8s;
+}
+.nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN3:hover a {
+  background: transparent;
+  color: #f3ae4f;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .precioN3::before {
   content: "Enviar mensaje";
@@ -443,7 +462,7 @@ header .contenedor nav .cerrarMenu ion-icon {
   rotate: -3deg;
 }
 .nuestrosProductos .contenedor .ordenTerceros .productosTerceros .infTerceros .txtDec3 {
-  color: #F3AE4F;
+  color: #f3ae4f;
 }
 
 footer {
